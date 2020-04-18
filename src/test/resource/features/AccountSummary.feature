@@ -1,3 +1,4 @@
+@Regression
 Feature: Account Summary page
 
   Background:

@@ -58,6 +58,9 @@ public class BrowserUtils {
      * @param locator
      * @return list of strings
      */
+    public void deneme(){
+        System.out.println("hi");
+    }
     public static List<String> getElementsText(By locator) {
 
         List<WebElement> elems = Driver.get().findElements(locator);

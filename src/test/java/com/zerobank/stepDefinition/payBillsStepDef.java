@@ -114,9 +114,12 @@ public class payBillsStepDef {
     @Then("following currencies should be available")
     public void following_currencies_should_be_available(List<String> expectedList ){
         PayBillsPage payBillsPage=new PayBillsPage();
+
+
+
         List<WebElement> webElements= payBillsPage.Currency;
         List<String> actualList= BrowserUtils.getElementsText(webElements);
-        //Assert.assertEquals("verify that",expectedList,actualList);
+
         System.out.println(actualList);
         System.out.println(expectedList);
 

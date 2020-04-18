@@ -152,8 +152,10 @@ formatter.match({
   "location": "payBillsStepDef.following_currencies_should_be_available(String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError: verify that  expected:\u003c[Select One, Australia (dollar), Canada (dollar), Switzerland (franc), China (yuan), Denmark (krone), Eurozone (euro), Great Britain (pound), Hong Kong (dollar), Japan (yen), Mexico (peso), Norway (krone), New Zealand (dollar), Sweden (krona), Singapore (dollar), Thailand (baht)]\u003e but was:\u003c[                                Select One\n                                    Australia (dollar)\n                                    Canada (dollar)\n                                    Switzerland (franc)\n                                    China (yuan)\n                                    Denmark (krone)\n                                    Eurozone (euro)\n                                    Great Britain (pound)\n                                    Hong Kong (dollar)\n                                    Japan (yen)\n                                    Mexico (peso)\n                                    Norway (krone)\n                                    New Zealand (dollar)\n                                    Sweden (krona)\n                                    Singapore (dollar)\n                                    Thailand (baht)\n                            ]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat com.zerobank.stepDefinition.payBillsStepDef.following_currencies_should_be_available(payBillsStepDef.java:123)\r\n\tat ✽.following currencies should be available(file:src/test/resource/features/PayBills.feature:62)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });
