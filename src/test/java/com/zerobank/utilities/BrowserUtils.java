@@ -55,7 +55,7 @@ public class BrowserUtils {
     /**
      * Extracts text from list of elements matching the provided locator into new List<String>
      *
-     * @param locator
+     * @param
      * @return list of strings
      */
     public void deneme(){
