@@ -1,0 +1,208 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1790624795,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "loginStepDef.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2519801243,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user enter the valid credential",
+            "match": {
+              "location": "loginStepDef.the_user_enter_the_valid_credential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3086536677,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user navigate to \"Pay Bills\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 21
+                }
+              ],
+              "location": "AccountActivtyStepDef.the_user_navigate_to_module(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-18T16:19:11.805Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5009171471,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Available currencies",
+        "description": "",
+        "id": "pay-bills-page;available-currencies",
+        "after": [
+          {
+            "result": {
+              "duration": 670772146,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 156106174,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "the user enter the Purchase\tforeign\tcurrency cash tab",
+            "match": {
+              "location": "payBillsStepDef.the_user_enter_the_Purchase_foreign_currency_cash_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 241261956,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "following currencies should be available",
+            "match": {
+              "location": "payBillsStepDef.following_currencies_should_be_available(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Select One"
+                ]
+              },
+              {
+                "cells": [
+                  "Australia (dollar)"
+                ]
+              },
+              {
+                "cells": [
+                  "Canada (dollar)"
+                ]
+              },
+              {
+                "cells": [
+                  "Switzerland (franc)"
+                ]
+              },
+              {
+                "cells": [
+                  "China (yuan)"
+                ]
+              },
+              {
+                "cells": [
+                  "Denmark (krone)"
+                ]
+              },
+              {
+                "cells": [
+                  "Eurozone (euro)"
+                ]
+              },
+              {
+                "cells": [
+                  "Great Britain (pound)"
+                ]
+              },
+              {
+                "cells": [
+                  "Hong Kong (dollar)"
+                ]
+              },
+              {
+                "cells": [
+                  "Japan (yen)"
+                ]
+              },
+              {
+                "cells": [
+                  "Mexico (peso)"
+                ]
+              },
+              {
+                "cells": [
+                  "Norway (krone)"
+                ]
+              },
+              {
+                "cells": [
+                  "New Zealand (dollar)"
+                ]
+              },
+              {
+                "cells": [
+                  "Sweden (krona)"
+                ]
+              },
+              {
+                "cells": [
+                  "Singapore (dollar)"
+                ]
+              },
+              {
+                "cells": [
+                  "Thailand (baht)"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Pay Bills Page",
+    "description": "",
+    "id": "pay-bills-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/features/PayBills.feature",
+    "tags": []
+  }
+]
