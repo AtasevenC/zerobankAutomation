@@ -35,6 +35,7 @@ public  class AccountActivtyStepDef {
         AccountActivityPage accountActivityPage=new AccountActivityPage();
         Select selectList =new Select(accountActivityPage.dropDown);
         String defultOptions=selectList.getFirstSelectedOption().getText();
+        System.out.println("----------------");
         Assert.assertEquals("verify that",string,defultOptions);
     }
 
