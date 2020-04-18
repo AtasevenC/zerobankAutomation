@@ -119,6 +119,8 @@ public class payBillsStepDef {
         //Assert.assertEquals("verify that",expectedList,actualList);
         System.out.println(actualList);
         System.out.println(expectedList);
+
+        Assert.assertEquals("verify that ",expectedList,actualList);
     }
 
 
