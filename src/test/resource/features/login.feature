@@ -1,3 +1,5 @@
+@smoke
+
 
 Feature: User should be able to login to the application
 
